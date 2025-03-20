@@ -5,4 +5,4 @@ The JSON that gets generated from the XML will consist only of arrays to support
 
 This software utilises a fork of https://github.com/basgys/goxml2json with a modification to reflect everything as an array so that the resulting json can be iterated over using {{#each}}.
 
-Usage: convertxml <filename>
+Usage: convertxml "<xml file>"
